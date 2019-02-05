@@ -1,0 +1,63 @@
+/* 
+SELETOR {
+    PROPRIEDADES:VALOR;
+} 
+*/
+
+body{
+    font-family: sans-serif;
+    margin: 0%;
+}
+
+
+header{
+    background-color: brown;
+}
+
+.nav-header a {
+    color: white;
+    text-decoration: none;
+}
+
+.cor-vermelha{
+    color:red;
+}
+
+#header-pesquisa{
+    color: green;
+}
+
+
+#header-pesquisa::placeholder{
+    color: aqua;
+}
+
+textarea{
+    resize:none;
+}
+
+.formulario-contato{
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 5px rgba(0,0,0,0.1);
+}
+
+.formulario-contato p, .formulario-contato h3{
+    font-size: 18pt;
+}
+
+.negrito:hover{
+    color: green;
+}
+
+img{
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity: 1;
+}
+
+button{
+    cursor: pointer;
+}
